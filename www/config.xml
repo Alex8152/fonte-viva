@@ -18,7 +18,5 @@
 	<icon src="file://C:\Users\Alexsandro\Desktop\Meus Apps\Repositorios\Radio\www\img\192.png" qualifier="xxxhdpi" />
 	</platform>
 	<content src="index.html" />
-    <access origin="http://95.154.254.129:12882/;.mp3" subdomains="false" />
-	<access origin="http://50.22.218.197:36526/;.mp3" subdomains="false" />
-	<access origin="http://78.129.190.50:26339/;.mp3" subdomains="false" />
+    <access origin="*"/>
 </widget>
