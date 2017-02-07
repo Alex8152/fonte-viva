@@ -16,10 +16,7 @@
 	<icon platform="android" src="img/96.png" density="xhdpi" width="96" height="96"/>
 	<icon platform="android" src="img/144.png" density="xxhdpi" width="144" height="144"/>
 	<icon platform="android" src="img/192.png" density="xxxhdpi" width="192" height="192"/>
-    <plugin name="cordova-plugin-device" spec="~1.1.4" />
-    <plugin name="cordova-plugin-media" spec="~2.4.1" />
-    <plugin name="cordova-plugin-network-information" spec="~1.3.1" />
-    <plugin name="cordova-plugin-whitelist" spec="~1.3.1" />
+    <plugin name="org.apache.cordova.network-information" spec="0.2.12" source="pgb" />
     <preference name="android-minSdkVersion" value="14"/>
     <preference name="android-targetSdkVersion" value="24"/>
     <preference name="android-installLocation" value="auto"/>
