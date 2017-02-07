@@ -9,14 +9,15 @@
     </author>
     <preference name="phonegap-version" value="cli-6.3.0" />
     <preference name="orientation" value="portrait" />
-	<platform name="android">
-	<icon src="file://C:\Users\Alexsandro\Desktop\Meus Apps\Repositorios\Radio\www\img\36.png" qualifier="ldpi" />
-	<icon src="file://C:\Users\Alexsandro\Desktop\Meus Apps\Repositorios\Radio\www\img\48.png" qualifier="mdpi" />
-	<icon src="file://C:\Users\Alexsandro\Desktop\Meus Apps\Repositorios\Radio\www\img\72.png" qualifier="hdpi" />
-	<icon src="file://C:\Users\Alexsandro\Desktop\Meus Apps\Repositorios\Radio\www\img\96.png" qualifier="xhdpi" />
-	<icon src="file://C:\Users\Alexsandro\Desktop\Meus Apps\Repositorios\Radio\www\img\144.png" qualifier="xxhdpi" />
-	<icon src="file://C:\Users\Alexsandro\Desktop\Meus Apps\Repositorios\Radio\www\img\192.png" qualifier="xxxhdpi" />
-	</platform>
-	<content src="index.html" />
+    <content src="index.html" />
     <access origin="*"/>
+	<platform name="android">
+	<icon src="/img/36.png" qualifier="ldpi" />
+	<icon src="img/48.png" qualifier="mdpi" />
+	<icon src="img/72.png" qualifier="hdpi" />
+	<icon src="img/96.png" qualifier="xhdpi" />
+	<icon src="img/144.png" qualifier="xxhdpi" />
+	<icon src="img/192.png" qualifier="xxxhdpi" />
+	</platform>
+	
 </widget>
