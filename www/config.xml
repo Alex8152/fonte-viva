@@ -11,13 +11,10 @@
     <preference name="orientation" value="portrait" />
     <content src="index.html" />
     <access origin="*"/>
-	<platform name="android">
-	<icon src="/img/36.png" qualifier="ldpi" />
-	<icon src="img/48.png" qualifier="mdpi" />
-	<icon src="img/72.png" qualifier="hdpi" />
-	<icon src="img/96.png" qualifier="xhdpi" />
-	<icon src="img/144.png" qualifier="xxhdpi" />
-	<icon src="img/192.png" qualifier="xxxhdpi" />
-	</platform>
-	
+	<icon platform="android" src="img/36.png" density="ldpi" width="36" height="36"/>
+	<icon platform="android" src="img/48.png" density="mdpi" width="48" height="48"/>
+	<icon platform="android" src="img/72.png" density="hdpi" width="72" height="72"/>
+	<icon platform="android" src="img/96.png" density="xhdpi" width="96" height="96"/>
+	<icon platform="android" src="img/144.png" density="xxhdpi" width="144" height="144"/>
+	<icon platform="android" src="img/192.png" density="xxxhdpi" width="192" height="192"/>
 </widget>
